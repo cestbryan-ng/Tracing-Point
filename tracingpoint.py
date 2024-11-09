@@ -30,6 +30,7 @@ def click() :
         Y = array(Y)
         plt.plot(X, Y, label = entrée)
         plt.xlim(-100, 100)
+        plt.ylim(-100, 100)
         plt.xlabel("Axe des x"); plt.ylabel("Axe des y")
         plt.legend()
         plt.grid()
