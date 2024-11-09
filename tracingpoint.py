@@ -22,16 +22,16 @@ def click() :
 #Evenement pour tracer la fonction.
     try :
         entrée = entry1.get()
-        X = linspace(-50, 50, 500)
+        X = linspace(-200, 200, 10000)
         Y = list()
         for _ in X :
             x = _
             Y.append(eval(entrée)) 
         Y = array(Y)
         plt.plot(X, Y, label = entrée)
+        plt.xlim(-100, 100)
         plt.xlabel("Axe des x"); plt.ylabel("Axe des y")
         plt.legend()
-        plt.axis("equal")
         plt.grid()
         plt.title("Tracing Point")
         plt.show()
