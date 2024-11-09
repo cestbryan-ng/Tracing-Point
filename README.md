@@ -1,8 +1,8 @@
 ## Tracing Point
 ---
-- Tracer vos fonctions à l'aide de cette app
-- Pour installer vous aurez besoin de l'interpréteur [Python](https://www.python.org/)
-- Ensuite vous ouvrez le shell et executez la commande : 
+- Plot your functions using this app
+- To install you will need the interpreter [Python](https://www.python.org/)
+- Then you open the shell and run the command: 
 ```
 pyinstaller --onefile tracingpoint.py
 ```
