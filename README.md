@@ -9,4 +9,4 @@ pyinstaller --onefile tracingpoint.py
 
 ---
 
--Install [python](https://www.python.org/).
+- Install [python](https://www.python.org/).
